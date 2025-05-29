@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./assets/css/product-page-test.css">
     <!--Script-->
     <script src="product-page.js" defer></script>
+    <script src="../product-detail-page/books-data.js"></script>
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,7 +28,7 @@
             
             <div class="nav-menu">
                 <div class="shop-nav">
-                    <a href="../product-detail-page/product-detail-page.html" class="nav-text">Shops</a>
+                    <a href="../product-page/product-page.html" class="nav-text">Shops</a>
                     <svg class="dropdown" xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 12 7" fill="none">
                             <path d="M11.5306 1.53063L6.5306 6.53063C6.46092 6.60055 6.37813 6.65602 6.28696 6.69388C6.1958 6.73173 6.09806 6.75122 5.99935 6.75122C5.90064 6.75122 5.8029 6.73173 5.71173 6.69388C5.62057 6.65602 5.53778 6.60055 5.4681 6.53063L0.468098 1.53063C0.327202 1.38973 0.248047 1.19864 0.248047 0.999378C0.248047 0.80012 0.327202 0.609024 0.468098 0.468128C0.608994 0.327231 0.800091 0.248077 0.999348 0.248077C1.19861 0.248077 1.3897 0.327231 1.5306 0.468128L5.99997 4.9375L10.4693 0.467503C10.6102 0.326607 10.8013 0.247452 11.0006 0.247452C11.1999 0.247452 11.391 0.326607 11.5318 0.467503C11.6727 0.608399 11.7519 0.799496 11.7519 0.998753C11.7519 1.19801 11.6727 1.38911 11.5318 1.53L11.5306 1.53063Z" fill="black"/>
                     </svg>
@@ -58,17 +59,17 @@
         <div class="separator"></div>
 
         <div class="banner1">
-            <img src="./assets/images/banner1.svg" alt="TESS">
+            <img src="./assets/images/banner1.svg" alt="Banner Dune" data-book-id="fantasy-8" class="product-item">
         </div>
 
         <div class="banner1-phone">
-            <img src="./assets/images/banner1-phone.svg" alt="">
+            <img src="./assets/images/banner1-phone.svg" alt="Banner Dune" data-book-id="fantasy-8" class="product-item">
         </div>
 
         <section class="product-section">
             <h1 class="product-title">Fantasy Books:</h1>
             <div class="product-list">
-                <div class="product-item">
+                <div class="product-item" data-book-id="fantasy-1">
                     <div class="image-card2">
                         <div class="image-wrapper">
                             <img src="./assets/images/harrypotter-sorcerer-photoshoot.png" alt="">
@@ -81,7 +82,7 @@
                         <p class="product-price">Rp. 200.000</p>
                     </div>
                 </div>
-                <div class="product-item">
+                <div class="product-item" data-book-id="fantasy-2">
                     <div class="image-card2">
                         <div class="image-wrapper">
                             <img src="./assets/images/harrypotter-chamber-photoshoot.png" alt="">
@@ -94,7 +95,7 @@
                         <p class="product-price">Rp. 200.000</p>
                     </div>
                 </div>
-                <div class="product-item">
+                <div class="product-item" data-book-id="fantasy-3">
                     <div class="image-card2">
                         <div class="image-wrapper">
                             <img src="./assets/images/harrypotter-prisoner-photoshoot.png" alt="">
@@ -107,7 +108,7 @@
                         <p class="product-price">Rp. 200.000</p>
                     </div>
                 </div>
-                <div class="product-item">
+                <div class="product-item" data-book-id="fantasy-4">
                     <div class="image-card2">
                         <div class="image-wrapper">
                             <img src="./assets/images/harrypotter-goblet-photoshoot.png" alt="">
@@ -120,7 +121,7 @@
                         <p class="product-price">Rp. 200.000</p>
                     </div>
                 </div>
-                <div class="product-item">
+                <div class="product-item" data-book-id="fantasy-5">
                     <div class="image-card2">
                         <div class="image-wrapper">
                             <img src="./assets/images/harrypotter-phoenix-photoshoot.png" alt="">
@@ -133,7 +134,7 @@
                         <p class="product-price">Rp. 200.000</p>
                     </div>
                 </div>
-                <div class="product-item">
+                <div class="product-item" data-book-id="fantasy-6">
                     <div class="image-card2">
                         <div class="image-wrapper">
                             <img src="./assets/images/harrypotter-prince-photoshoot.png" alt="">
@@ -146,7 +147,7 @@
                         <p class="product-price">Rp. 200.000</p>
                     </div>
                 </div>
-                <div class="product-item">
+                <div class="product-item" data-book-id="fantasy-7">
                     <div class="image-card2">
                         <div class="image-wrapper">
                             <img src="./assets/images/harrypotter-hallow-photoshoot.png" alt="">
@@ -159,7 +160,7 @@
                         <p class="product-price">Rp. 200.000</p>
                     </div>
                 </div>
-                <div class="product-item">
+                <div class="product-item" data-book-id="fantasy-9">
                     <div class="image-card2">
                         <div class="image-wrapper">
                             <img src="./assets/images/dune-messiah-photoshoot.svg" alt="">
@@ -172,7 +173,7 @@
                         <p class="product-price">Rp. 200.000</p>
                     </div>
                 </div>
-                <div class="product-item">
+                <div class="product-item" data-book-id="fantasy-10">
                     <div class="image-card2">
                         <div class="image-wrapper">
                             <img src="./assets/images/dune-children-photoshoot.svg" alt="">
@@ -185,7 +186,7 @@
                         <p class="product-price">Rp. 200.000</p>
                     </div>
                 </div>
-                <div class="product-item">
+                <div class="product-item" data-book-id="fantasy-11">
                     <div class="image-card2">
                         <div class="image-wrapper">
                             <img src="./assets/images/dune-god-photoshoot.svg" alt="">
@@ -201,17 +202,17 @@
         </section>
 
         <div class="banner2">
-            <img src="./assets/images/banner2.svg" alt="TESS">
+            <img src="./assets/images/banner2.svg" alt="Banner Wild Robot" class="product-item" data-book-id="kids-1">
         </div>
 
         <div class="banner2-phone">
-            <img src="./assets/images/banner2-phone.svg" alt="">
+            <img src="./assets/images/banner2-phone.svg" alt="Banner Wild Robot"  class="product-item" data-book-id="kids-1">
         </div>
 
         <section class="product-section">
             <h1 class="product-title">Kids Books:</h1>
             <div class="product-list">
-                <div class="product-item">
+                <div class="product-item" data-book-id="kids-2">
                     <div class="image-card2">
                         <div class="image-wrapper">
                             <img src="./assets/images/robot-protect-photoshoot.svg" alt="">
@@ -224,7 +225,7 @@
                         <p class="product-price">Rp. 200.000</p>
                     </div>
                 </div>
-                <div class="product-item">
+                <div class="product-item" data-book-id="kids-3">
                     <div class="image-card2">
                         <div class="image-wrapper">
                             <img src="./assets/images/robot-escape-photoshoot.svg" alt="">
@@ -237,7 +238,7 @@
                         <p class="product-price">Rp. 200.000</p>
                     </div>
                 </div>
-                <div class="product-item">
+                <div class="product-item" data-book-id="kids-4">
                     <div class="image-card2">
                         <div class="image-wrapper">
                             <img src="./assets/images/badguy-1-photoshoot.svg" alt="">
@@ -250,7 +251,7 @@
                         <p class="product-price">Rp. 200.000</p>
                     </div>
                 </div>
-                <div class="product-item">
+                <div class="product-item" data-book-id="kids-5">
                     <div class="image-card2">
                         <div class="image-wrapper">
                             <img src="./assets/images/httyd-1-photoshoot.svg" alt="">
@@ -263,7 +264,7 @@
                         <p class="product-price">Rp. 200.000</p>
                     </div>
                 </div>
-                <div class="product-item">
+                <div class="product-item" data-book-id="kids-6">
                     <div class="image-card2">
                         <div class="image-wrapper">
                             <img src="./assets/images/lorax-1-photoshoot.svg" alt="">
@@ -276,7 +277,7 @@
                         <p class="product-price">Rp. 200.000</p>
                     </div>
                 </div>
-                <div class="product-item">
+                <div class="product-item" data-book-id="kids-7">
                     <div class="image-card2">
                         <div class="image-wrapper">
                             <img src="./assets/images/paddington-1-photoshoot.svg" alt="">
@@ -289,7 +290,7 @@
                         <p class="product-price">Rp. 200.000</p>
                     </div>
                 </div>
-                <div class="product-item">
+                <div class="product-item" data-book-id="kids-8">
                     <div class="image-card2">
                         <div class="image-wrapper">
                             <img src="./assets/images/bfg-1-photoshoot.svg" alt="">
@@ -302,7 +303,7 @@
                         <p class="product-price">Rp. 200.000</p>
                     </div>
                 </div>
-                <div class="product-item">
+                <div class="product-item" data-book-id="kids-9">
                     <div class="image-card2">
                         <div class="image-wrapper">
                             <img src="./assets/images/elemental-1-photoshoot.svg" alt="">
@@ -315,7 +316,7 @@
                         <p class="product-price">Rp. 200.000</p>
                     </div>
                 </div>
-                <div class="product-item">
+                <div class="product-item" data-book-id="kids-10">
                     <div class="image-card2">
                         <div class="image-wrapper">
                             <img src="./assets/images/turningred-1-photoshoot.svg" alt="">
@@ -328,7 +329,7 @@
                         <p class="product-price">Rp. 200.000</p>
                     </div>
                 </div>
-                <div class="product-item">
+                <div class="product-item" data-book-id="kids-11">
                     <div class="image-card2">
                         <div class="image-wrapper">
                             <img src="./assets/images/coco-1-photoshoot.svg" alt="">
