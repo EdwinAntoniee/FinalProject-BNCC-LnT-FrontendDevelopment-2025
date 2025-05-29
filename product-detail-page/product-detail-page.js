@@ -28,10 +28,28 @@ document.querySelectorAll('.recomendation-rating').forEach(function(ratingElem) 
     ratingElem.innerHTML = starsHTML;
 });
 
+// Add this to your product-detail-page.js
+document.addEventListener('DOMContentLoaded', function() {
+    // Get all image choice elements
+    const imageChoices = document.querySelectorAll('.image-choice');
+    const highlightedImage = document.querySelector('.image-highlighted');
 
-// ...existing code...
+    // Add click event listener to each image choice
+    imageChoices.forEach(function(image) {
+        image.addEventListener('click', function() {
+            // Get the source of the clicked image
+            const newImageSrc = this.getAttribute('src');
+            
+            // Update the highlighted image source
+            highlightedImage.setAttribute('src', newImageSrc);
+            
+            // Optional: Add visual feedback for selected thumbnail
+            imageChoices.forEach(img => img.parentElement.classList.remove('selected'));
+            this.parentElement.classList.add('selected');
+        });
+    });
+});
 
-// Hamburger menu functionality
 document.addEventListener('DOMContentLoaded', function() {
   const hamburger = document.querySelector('.icon-nonlaptop');
   const sidebar = document.getElementById('sidebarNav');
