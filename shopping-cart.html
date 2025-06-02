@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Your Cart</title>
+    <link rel="stylesheet" href="css/shopping-cart.css"/>
+</head>
+<body>
+
+    <body>
+    <section class="content">
+        <section class="nav-bar">
+            <div class="nonlaptop-left">
+                <svg class="icon-nonlaptop" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M3 12H21M3 6H21M3 18H21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+                <div class="name"><h1>Aksara Eda</h1></div>
+            </div>
+            
+            <div class="nav-menu">
+                <div class="shop-nav">
+                    <a href="#" class="nav-text">Shops</a>
+                    <svg class="dropdown" xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 12 7" fill="none">
+                        <path d="M11.5306 1.53063L6.5306 6.53063C6.46092 6.60055 6.37813 6.65602 6.28696 6.69388C6.1958 6.73173 6.09806 6.75122 5.99935 6.75122C5.90064 6.75122 5.8029 6.73173 5.71173 6.69388C5.62057 6.65602 5.53778 6.60055 5.4681 6.53063L0.468098 1.53063C0.327202 1.38973 0.248047 1.19864 0.248047 0.999378C0.248047 0.80012 0.327202 0.609024 0.468098 0.468128C0.608994 0.327231 0.800091 0.248077 0.999348 0.248077C1.19861 0.248077 1.3897 0.327231 1.5306 0.468128L5.99997 4.9375L10.4693 0.467503C10.6102 0.326607 10.8013 0.247452 11.0006 0.247452C11.1999 0.247452 11.391 0.326607 11.5318 0.467503C11.6727 0.608399 11.7519 0.799496 11.7519 0.998753C11.7519 1.19801 11.6727 1.38911 11.5318 1.53L11.5306 1.53063Z" fill="black"/>
+                    </svg>
+                </div>
+                <p class="nav-text">On Sale</p>
+                <p class="nav-text">New Arrivals</p>
+                <p class="nav-text">Brands</p>
+            </div>
+            
+            <div class="sidebar-nav" id="sidebarNav">
+                <div class="sidebar-content">
+                    <span class="close-sidebar" id="closeSidebar">&times;</span>
+                    <a href="#" class="nav-text">Shops</a>
+                    <a href="#" class="nav-text">On Sale</a>
+                    <a href="#" class="nav-text">New Arrivals</a>
+                    <a href="#" class="nav-text">Brands</a>
+                </div>
+            </div>
+            
+            <div class="search-container">
+                <span class="search-icon">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                        <circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="2"/>
+                        <polyline points="21,21 16.65,16.65" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                </span>
+                <input type="text" class="search-box" placeholder="Search for products...">
+            </div>
+            
+            <div class="nonlaptop-right">
+                <span class="icon-nonlaptop">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                        <circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="2"/>
+                        <polyline points="21,21 16.65,16.65" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                </span>
+                <svg class="shopping-cart" width="20" height="20" viewBox="0 0 24 24" fill="none">
+                    <circle cx="9" cy="21" r="1" stroke="currentColor" stroke-width="2"/>
+                    <circle cx="20" cy="21" r="1" stroke="currentColor" stroke-width="2"/>
+                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" stroke="currentColor" stroke-width="2"/>
+                </svg>
+            </div>
+        </section>
+    
+        <div class="separator"></div>
+
+        <main class="cart">
+            <div class="cart__breadcrumb">Home > Cart</div>
+            <h1 class="cart__title">Your cart</h1>
+
+            <div class="cart__content">
+                <!-- Cart Items -->
+                <div class="cart__items">
+                    <div class="cart-item">
+                        <img src="asset\harrypotter-sorcerer-photoshoot.png" alt="Harry Potter Book" class="cart-item__image">
+                        <div class="cart-item__info">
+                            <h2 class="cart-item__name">Harry Potter and the Sorcerer's Stone</h2>
+                            <p class="cart-item__details">Format: Hardcover<br>Language: English</p>
+                            <p class="cart-item__price">Rp. 200.000</p>
+                        </div>
+                        <div class="cart-item__actions">
+                            <div class="quantity">
+                                <button class="quantity__btn quantity__btn--decrease">−</button>
+                                <span class="quantity__value">1</span>
+                                <button class="quantity__btn quantity__btn--increase">+</button>
+                            </div>
+                            <button class="cart-item__delete">🗑</button>
+                        </div>
+                    </div>
+                    
+                    <div class="cart-item">
+                        <img src="asset\dune-first-photoshoot.svg" alt="Dune Book" class="cart-item__image">
+                        <div class="cart-item__info">
+                            <h2 class="cart-item__name">Dune</h2>
+                            <p class="cart-item__details">Format: Paperback<br>Language: English</p>
+                            <p class="cart-item__price">Rp. 200.000</p>
+                        </div>
+                        <div class="cart-item__actions">
+                            <div class="quantity">
+                                <button class="quantity__btn quantity__btn--decrease">−</button>
+                                <span class="quantity__value">2</span>
+                                <button class="quantity__btn quantity__btn--increase">+</button>
+                            </div>
+                            <button class="cart-item__delete">🗑</button>
+                        </div>
+                    </div>
+
+                    <div class="cart-item">
+                        <img src="asset\robot-wild-photoshoot.svg" alt="The Wild Robot" class="cart-item__image">
+                        <div class="cart-item__info">
+                            <h2 class="cart-item__name">The Wild Robot</h2>
+                            <p class="cart-item__details">Format: Hardcover<br>Language: English</p>
+                            <p class="cart-item__price">Rp. 200.000</p>
+                        </div>
+                        <div class="cart-item__actions">
+                            <div class="quantity">
+                                <button class="quantity__btn quantity__btn--decrease">−</button>
+                                <span class="quantity__value">1</span>
+                                <button class="quantity__btn quantity__btn--increase">+</button>
+                            </div>
+                            <button class="cart-item__delete">🗑</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Order Summary -->
+                <div class="summary">
+                    <h2 class="summary__title">Order Summary</h2>
+                    <div class="summary__line">
+                        <span>Subtotal</span><span>Rp. 800.000</span>
+                    </div>
+                    <div class="summary__line">
+                        <span>Discount (-10%)</span><span class="summary__discount">-Rp. 80.000</span>
+                    </div>
+                    <div class="summary__line">
+                        <span>Delivery Fee</span><span>Rp. 25.000</span>
+                    </div>
+                    <div class="summary__total">
+                        <span>Total</span><span>Rp. 745.000</span>
+                    </div>
+                    <div class="summary__promo">
+                        <input type="text" class="summary__input" placeholder="Add promo code">
+                        <button class="summary__apply">Apply</button>
+                    </div>
+                    <button class="summary__checkout" onclick="openModal()">Go to Checkout →</button>
+                </div>
+            </div>
+        </main>
+
+<footer class="footer">
+  <div class="footer__sections">
+    <div class="footer__section footer__section--brand">
+      <div class="footer__brand">Aksara Eda</div>
+      <p class="footer__text">
+        We have clothes that suits your style and which you’re proud to wear. From women to men.
+      </p>
+      <div class="footer__media">
+        <!-- Social media icons -->
+      </div>
+    </div>
+
+    <div class="footer__section footer__section--links">
+      <div class="footer__column">
+        <h4 class="footer__heading">Company</h4>
+        <ul class="footer__list">
+          <li class="footer__item">About</li>
+          <li class="footer__item">Features</li>
+          <li class="footer__item">Works</li>
+          <li class="footer__item">Career</li>
+        </ul>
+      </div>
+      <div class="footer__column">
+        <h4 class="footer__heading">Help</h4>
+        <ul class="footer__list">
+          <li class="footer__item">Customer Support</li>
+          <li class="footer__item">Delivery Details</li>
+          <li class="footer__item">Terms & Conditions</li>
+          <li class="footer__item">Privacy Policy</li>
+        </ul>
+      </div>
+      <div class="footer__column">
+        <h4 class="footer__heading">Resources</h4>
+        <ul class="footer__list">
+          <li class="footer__item">Free eBooks</li>
+          <li class="footer__item">Dev Tutorial</li>
+          <li class="footer__item">How to – Blog</li>
+          <li class="footer__item">YouTube Playlist</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer__bottom">
+    Aksara Eda © 2025. All rights reserved.
+  </div>
+</footer>
+
+    <!-- Checkout Modal -->
+    <div class="modal" id="checkoutModal">
+        <div class="modal__overlay"></div>
+        <div class="modal__content">
+            <button class="modal__close" id="closeModal">×</button>
+            <h2 class="modal__title">Checkout Summary</h2>
+            
+            <div class="modal__section">
+                <p class="modal__label">Subtotal:</p>
+                <p class="modal__value">$565</p>
+            </div>
+            <div class="modal__section">
+                <p class="modal__label">Discount:</p>
+                <p class="modal__value">- $113</p>
+            </div>
+            <div class="modal__section">
+                <p class="modal__label">Delivery Fee:</p>
+                <p class="modal__value">$15</p>
+            </div>
+            <hr class="modal__divider" />
+            <div class="modal__section modal__section--total">
+                <p class="modal__label">Total:</p>
+                <p class="modal__value">$467</p>
+            </div>
+
+            <button class="modal__confirm">Confirm Purchase</button>
+        </div>
+    </div>
+
+    <script src="js/shopping-cart.js"></script>
+</body>
+</html>
