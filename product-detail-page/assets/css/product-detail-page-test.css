@@ -758,7 +758,13 @@ h1 {
   font-weight: var(--weight-regular);
   color: var(--color-primary);
   text-decoration: none;
+  cursor: pointer;
 }
+
+.company-details span:hover {
+  text-decoration: underline;
+}
+
 
 .social-media {
   display: flex;
@@ -773,6 +779,8 @@ h1 {
   color: var(--color-primary);
   text-decoration: none;
 }
+
+
 
 .contact-footer {
   margin-top: 1%;
