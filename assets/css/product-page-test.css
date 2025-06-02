@@ -24,6 +24,8 @@
   --color-background: #fbf3e6;
   --color-primary: #373f42;
   --color-secondary: #e1c9a8;
+  --color-accent: #d4a574;
+  --color-text-light: #718096;
 }
 
 html,
@@ -82,7 +84,7 @@ html ::-webkit-scrollbar {
 }
 
 .nav-text:hover {
-  text-decoration: underline;
+  color: var(--color-accent);
 }
 
 .shop-nav {
@@ -139,10 +141,36 @@ html ::-webkit-scrollbar {
 
 .separator {
   max-width: 100%;
-  margin: 2% 0 2% 0;
+  margin: 2% 0 1% 0;
   height: 1px;
   background: var(--color-primary);
   opacity: 0.1;
+}
+
+.bread-crumbs{
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  margin-bottom: 1%;
+}
+
+.bread-crumbs a{
+  font-family: var(--font-family-title);
+  font-size: var(--dp-16);
+  font-style: normal;
+  font-weight: var(--weight-regular);
+  color: var(--color-primary);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.bread-crumbs svg{
+  width: 10px;
+  height: 8px;
+}
+
+.bread-crumbs a:hover{
+  color: var(--color-accent);
 }
 
 .banner1 {
@@ -153,7 +181,7 @@ html ::-webkit-scrollbar {
 }
 
 .banner1 img {
-  width: 100%;
+  width: 86%;
 }
 
 .banner1-phone {
@@ -290,7 +318,7 @@ html ::-webkit-scrollbar {
 }
 
 .banner2 img {
-  width: 100%;
+  width: 86%;
 }
 
 .banner2-phone {
@@ -376,7 +404,7 @@ html ::-webkit-scrollbar {
 }
 
 .company-details span:hover {
-  text-decoration: underline;
+  color: var(--color-accent);
 }
 
 .contact-footer {
@@ -488,7 +516,8 @@ html ::-webkit-scrollbar {
   }
 
   .product-title {
-    font-size: var(--dp-18);
+    margin-top: 8% ;
+    font-size: var(--dp-16);
   }
 
   .product-list {
