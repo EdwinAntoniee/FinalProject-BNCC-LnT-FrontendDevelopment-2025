@@ -24,6 +24,8 @@
   --color-background: #fbf3e6;
   --color-primary: #373f42;
   --color-secondary: #e1c9a8;
+  --color-accent: #d4a574;
+  --color-text-light: #718096;
 }
 
 html,
@@ -86,7 +88,7 @@ html ::-webkit-scrollbar {
 }
 
 .nav-text:hover {
-  text-decoration: underline;
+  color: var(--color-accent);
 }
 
 .shop-nav {
@@ -147,6 +149,32 @@ html ::-webkit-scrollbar {
 
 #separator-phone {
   display: none;
+}
+
+.bread-crumbs{
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  margin-bottom: 1%;
+}
+
+.bread-crumbs a{
+  font-family: var(--font-family-title);
+  font-size: var(--dp-16);
+  font-style: normal;
+  font-weight: var(--weight-regular);
+  color: var(--color-primary);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.bread-crumbs svg{
+  width: 10px;
+  height: 8px;
+}
+
+.bread-crumbs a:hover{
+  color: var(--color-accent);
 }
 
 .main-product {
@@ -762,7 +790,7 @@ h1 {
 }
 
 .company-details span:hover {
-  text-decoration: underline;
+  color: var(--color-accent);
 }
 
 
