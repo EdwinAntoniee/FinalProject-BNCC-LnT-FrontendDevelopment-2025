@@ -79,3 +79,10 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+const cartIcon = document.querySelector(".shopping-cart");
+  if (cartIcon) {
+    cartIcon.addEventListener("click", function () {
+      window.location.href = "../checkout-page/shopping-cart.html";
+    });
+  }
