@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail Page</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="./assets/css/product-page-test.css">
+    <!--Script-->
+    <script src="product-page.js" defer></script>
+    <script src="../product-detail-page/books-data.js"></script>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+    <section class="content">
+
+        <section class="nav-bar">
+            <div class="nonlaptop-left">
+                <img src="./assets/icons/hamburger.svg" class="icon-nonlaptop"alt="">
+                <div class="name"><h1>Aksara Eda</h1></div>
+            </div>
+            
+            <div class="nav-menu">
+                <div class="shop-nav">
+                    <a href="../product-page/product-page.html" class="nav-text">Shops</a>
+                    <svg class="dropdown" xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 12 7" fill="none">
+                            <path d="M11.5306 1.53063L6.5306 6.53063C6.46092 6.60055 6.37813 6.65602 6.28696 6.69388C6.1958 6.73173 6.09806 6.75122 5.99935 6.75122C5.90064 6.75122 5.8029 6.73173 5.71173 6.69388C5.62057 6.65602 5.53778 6.60055 5.4681 6.53063L0.468098 1.53063C0.327202 1.38973 0.248047 1.19864 0.248047 0.999378C0.248047 0.80012 0.327202 0.609024 0.468098 0.468128C0.608994 0.327231 0.800091 0.248077 0.999348 0.248077C1.19861 0.248077 1.3897 0.327231 1.5306 0.468128L5.99997 4.9375L10.4693 0.467503C10.6102 0.326607 10.8013 0.247452 11.0006 0.247452C11.1999 0.247452 11.391 0.326607 11.5318 0.467503C11.6727 0.608399 11.7519 0.799496 11.7519 0.998753C11.7519 1.19801 11.6727 1.38911 11.5318 1.53L11.5306 1.53063Z" fill="black"/>
+                    </svg>
+                </div>
+                <p class="nav-text">On Sale</p>
+                <p class="nav-text">New Arrivals</p>
+                <p class="nav-text">Brands</p>
+            </div>
+            <div class="sidebar-nav" id="sidebarNav">
+                <div class="sidebar-content">
+                    <span class="close-sidebar" id="closeSidebar">&times;</span>
+                    <a href="../product-detail-page/product-detail-page.html" class="nav-text">Shops</a>
+                    <a href="#" class="nav-text">On Sale</a>
+                    <a href="#" class="nav-text">New Arrivals</a>
+                    <a href="#" class="nav-text">Brands</a>
+                </div>
+            </div>
+            <div class="search-container">
+                <span class="search-icon"><img src="./assets/icons/magnifying.svg" alt=""></span>
+                <input type="text" class="search-box" placeholder="Search for products...">
+            </div>
+            <div class="nonlaptop-right">
+                <span class="icon-nonlaptop"><img src="./assets/icons/magnifying.svg" alt=""></span>
+                <img src="./assets/icons/cart.svg" alt="Cart" class="shopping-cart">
+            </div>
+        </section>
+    
+        <div class="separator"></div>
+
+        <div class="bread-crumbs">
+            <a href="#">Home</a>
+            <svg class="arrow-right" xmlns="http://www.w3.org/2000/svg" width="7" height="12" viewBox="0 0 7 12" fill="none">
+                <path d="M1.46936 0.469391C1.32847 0.610287 1.24931 0.801384 1.24931 1.00064C1.24931 1.1999 1.32847 1.391 1.46936 1.53189L5.93873 6.00126L1.46848 10.4715C1.39745 10.5426 1.34096 10.6257 1.30282 10.7166C1.26468 10.8074 1.245 10.9053 1.245 11.004C1.245 11.1027 1.26468 11.2006 1.30282 11.2914C1.34096 11.3823 1.39745 11.4654 1.46848 11.5365C1.53951 11.6075 1.6226 11.664 1.71344 11.7022C1.80428 11.7403 1.9022 11.76 2.00091 11.76C2.09962 11.76 2.19754 11.7403 2.28838 11.7022C2.37922 11.664 2.46231 11.6075 2.53334 11.5365L7.53334 6.5365C7.60303 6.46658 7.65849 6.38379 7.69635 6.29262C7.7342 6.20146 7.75369 6.10372 7.75369 6.00501C7.75369 5.9063 7.7342 5.80856 7.69635 5.7174C7.65849 5.62623 7.60303 5.54344 7.53334 5.47352L2.53334 0.473515C2.39244 0.332619 2.20135 0.253464 2.00209 0.253464C1.80283 0.253464 1.61174 0.332619 1.47084 0.473515L1.46936 0.469391Z" fill="black"/>
+            </svg>
+            <a href="product-page.html">Product Page</a>
+        </div>
+
+        <div class="banner1">
+            <img src="./assets/images/banner1.svg" alt="Banner Dune" data-book-id="fantasy-8" class="product-item">
+        </div>
+
+        <div class="banner1-phone">
+            <img src="./assets/images/banner1-phone.svg" alt="Banner Dune" data-book-id="fantasy-8" class="product-item">
+        </div>
+
+        <section class="product-section">
+            <h1 class="product-title">Fantasy Books:</h1>
+            <div class="product-list">
+                <div class="product-item" data-book-id="fantasy-1">
+                    <div class="image-card2">
+                        <div class="image-wrapper">
+                            <img src="./assets/images/harrypotter-sorcerer-photoshoot.png" alt="">
+                        </div>
+                        <div class="quick-add">Quick add to cart</div>
+                    </div>
+                    <div class="product-details">
+                        <h2 class="product-name">Harry Potter and the Sorcerer's Stones</h2>
+                        <span class="product-rating" data-rating="4.5"></span>
+                        <p class="product-price">Rp. 200.000</p>
+                    </div>
+                </div>
+                <div class="product-item" data-book-id="fantasy-2">
+                    <div class="image-card2">
+                        <div class="image-wrapper">
+                            <img src="./assets/images/harrypotter-chamber-photoshoot.png" alt="">
+                        </div>
+                        <div class="quick-add">Quick add to cart</div>
+                    </div>
+                    <div class="product-details">
+                        <h2 class="product-name">Harry Potter and the Chamber of Secrets</h2>
+                        <span class="product-rating" data-rating="4.5"></span>
+                        <p class="product-price">Rp. 200.000</p>
+                    </div>
+                </div>
+                <div class="product-item" data-book-id="fantasy-3">
+                    <div class="image-card2">
+                        <div class="image-wrapper">
+                            <img src="./assets/images/harrypotter-prisoner-photoshoot.png" alt="">
+                        </div>
+                        <div class="quick-add">Quick add to cart</div>
+                    </div>
+                    <div class="product-details">
+                        <h2 class="product-name">Harry Potter and the Prisoner of Azkaban</h2>
+                        <span class="product-rating" data-rating="3.5"></span>
+                        <p class="product-price">Rp. 200.000</p>
+                    </div>
+                </div>
+                <div class="product-item" data-book-id="fantasy-4">
+                    <div class="image-card2">
+                        <div class="image-wrapper">
+                            <img src="./assets/images/harrypotter-goblet-photoshoot.png" alt="">
+                        </div>
+                        <div class="quick-add">Quick add to cart</div>
+                    </div>
+                    <div class="product-details">
+                        <h2 class="product-name">Harry Potter and the Goblet of Fire</h2>
+                        <span class="product-rating" data-rating="5"></span>
+                        <p class="product-price">Rp. 200.000</p>
+                    </div>
+                </div>
+                <div class="product-item" data-book-id="fantasy-5">
+                    <div class="image-card2">
+                        <div class="image-wrapper">
+                            <img src="./assets/images/harrypotter-phoenix-photoshoot.png" alt="">
+                        </div>
+                        <div class="quick-add">Quick add to cart</div>
+                    </div>
+                    <div class="product-details">
+                        <h2 class="product-name">Harry Potter and the Order of the Phoenix</h2>
+                        <span class="product-rating" data-rating="4.5"></span>
+                        <p class="product-price">Rp. 200.000</p>
+                    </div>
+                </div>
+                <div class="product-item" data-book-id="fantasy-6">
+                    <div class="image-card2">
+                        <div class="image-wrapper">
+                            <img src="./assets/images/harrypotter-prince-photoshoot.png" alt="">
+                        </div>  
+                        <div class="quick-add">Quick add to cart</div>
+                    </div>
+                    <div class="product-details">
+                        <h2 class="product-name">Harry Potter and the Half-Blood Prince</h2>
+                        <span class="product-rating" data-rating="4.5"></span>
+                        <p class="product-price">Rp. 200.000</p>
+                    </div>
+                </div>
+                <div class="product-item" data-book-id="fantasy-7">
+                    <div class="image-card2">
+                        <div class="image-wrapper">
+                            <img src="./assets/images/harrypotter-hallow-photoshoot.png" alt="">
+                        </div>   
+                        <div class="quick-add">Quick add to cart</div>
+                    </div>
+                    <div class="product-details">
+                        <h2 class="product-name">Harry Potter and the Deathly Hallows</h2>
+                        <span class="product-rating" data-rating="3.5"></span>
+                        <p class="product-price">Rp. 200.000</p>
+                    </div>
+                </div>
+                <div class="product-item" data-book-id="fantasy-9">
+                    <div class="image-card2">
+                        <div class="image-wrapper">
+                            <img src="./assets/images/dune-messiah-photoshoot.svg" alt="">
+                        </div>
+                        <div class="quick-add">Quick add to cart</div>
+                    </div>
+                    <div class="product-details">
+                        <h2 class="product-name">Dune Messiah</h2>
+                        <span class="product-rating" data-rating="5"></span>
+                        <p class="product-price">Rp. 200.000</p>
+                    </div>
+                </div>
+                <div class="product-item" data-book-id="fantasy-10">
+                    <div class="image-card2">
+                        <div class="image-wrapper">
+                            <img src="./assets/images/dune-children-photoshoot.svg" alt="">
+                        </div>  
+                        <div class="quick-add">Quick add to cart</div>
+                    </div>
+                    <div class="product-details">
+                        <h2 class="product-name">Children of Dune</h2>
+                        <span class="product-rating" data-rating="4"></span>
+                        <p class="product-price">Rp. 200.000</p>
+                    </div>
+                </div>
+                <div class="product-item" data-book-id="fantasy-11">
+                    <div class="image-card2">
+                        <div class="image-wrapper">
+                            <img src="./assets/images/dune-god-photoshoot.svg" alt="">
+                        </div>   
+                        <div class="quick-add">Quick add to cart</div>
+                    </div>
+                    <div class="product-details">
+                        <h2 class="product-name">God Emperor of Dune</h2>
+                        <span class="product-rating" data-rating="3"></span>
+                        <p class="product-price">Rp. 200.000</p>
+                    </div>
+                </div>
+        </section>
+
+        <div class="banner2">
+            <img src="./assets/images/banner2.svg" alt="Banner Wild Robot" class="product-item" data-book-id="kids-1">
+        </div>
+
+        <div class="banner2-phone">
+            <img src="./assets/images/banner2-phone.svg" alt="Banner Wild Robot"  class="product-item" data-book-id="kids-1">
+        </div>
+
+        <section class="product-section">
+            <h1 class="product-title">Kids Books:</h1>
+            <div class="product-list">
+                <div class="product-item" data-book-id="kids-2">
+                    <div class="image-card2">
+                        <div class="image-wrapper">
+                            <img src="./assets/images/robot-protect-photoshoot.svg" alt="">
+                        </div>
+                        <div class="quick-add">Quick add to cart</div>
+                    </div>
+                    <div class="product-details">
+                        <h2 class="product-name">The Wild Robot Protects</h2>
+                        <span class="product-rating" data-rating="3.5"></span>
+                        <p class="product-price">Rp. 200.000</p>
+                    </div>
+                </div>
+                <div class="product-item" data-book-id="kids-3">
+                    <div class="image-card2">
+                        <div class="image-wrapper">
+                            <img src="./assets/images/robot-escape-photoshoot.svg" alt="">
+                        </div>
+                        <div class="quick-add">Quick add to cart</div>
+                    </div>
+                    <div class="product-details">
+                        <h2 class="product-name">The Wild Robot Escapes</h2>
+                        <span class="product-rating" data-rating="3"></span>
+                        <p class="product-price">Rp. 200.000</p>
+                    </div>
+                </div>
+                <div class="product-item" data-book-id="kids-4">
+                    <div class="image-card2">
+                        <div class="image-wrapper">
+                            <img src="./assets/images/badguy-1-photoshoot.svg" alt="">
+                        </div>
+                        <div class="quick-add">Quick add to cart</div>
+                    </div>
+                    <div class="product-details">
+                        <h2 class="product-name">The Bad Guys #1</h2>
+                        <span class="product-rating" data-rating="5"></span>
+                        <p class="product-price">Rp. 200.000</p>
+                    </div>
+                </div>
+                <div class="product-item" data-book-id="kids-5">
+                    <div class="image-card2">
+                        <div class="image-wrapper">
+                            <img src="./assets/images/httyd-1-photoshoot.svg" alt="">
+                        </div>
+                        <div class="quick-add">Quick add to cart</div>
+                    </div>
+                    <div class="product-details">
+                        <h2 class="product-name">How To Train Your Dragon</h2>
+                        <span class="product-rating" data-rating="4"></span>
+                        <p class="product-price">Rp. 200.000</p>
+                    </div>
+                </div>
+                <div class="product-item" data-book-id="kids-6">
+                    <div class="image-card2">
+                        <div class="image-wrapper">
+                            <img src="./assets/images/lorax-1-photoshoot.svg" alt="">
+                        </div>
+                        <div class="quick-add">Quick add to cart</div>
+                    </div>
+                    <div class="product-details">
+                        <h2 class="product-name">The Lorax</h2>
+                        <span class="product-rating" data-rating="4.5"></span>
+                        <p class="product-price">Rp. 200.000</p>
+                    </div>
+                </div>
+                <div class="product-item" data-book-id="kids-7">
+                    <div class="image-card2">
+                        <div class="image-wrapper">
+                            <img src="./assets/images/paddington-1-photoshoot.svg" alt="">
+                        </div>  
+                        <div class="quick-add">Quick add to cart</div>
+                    </div>
+                    <div class="product-details">
+                        <h2 class="product-name">Paddington Goes to Town</h2>
+                        <span class="product-rating" data-rating="5"></span>
+                        <p class="product-price">Rp. 200.000</p>
+                    </div>
+                </div>
+                <div class="product-item" data-book-id="kids-8">
+                    <div class="image-card2">
+                        <div class="image-wrapper">
+                            <img src="./assets/images/bfg-1-photoshoot.svg" alt="">
+                        </div>   
+                        <div class="quick-add">Quick add to cart</div>
+                    </div>
+                    <div class="product-details">
+                        <h2 class="product-name">The Big Friendly Giant</h2>
+                        <span class="product-rating" data-rating="3.5"></span>
+                        <p class="product-price">Rp. 200.000</p>
+                    </div>
+                </div>
+                <div class="product-item" data-book-id="kids-9">
+                    <div class="image-card2">
+                        <div class="image-wrapper">
+                            <img src="./assets/images/elemental-1-photoshoot.svg" alt="">
+                        </div>
+                        <div class="quick-add">Quick add to cart</div>
+                    </div>
+                    <div class="product-details">
+                        <h2 class="product-name">Elemental</h2>
+                        <span class="product-rating" data-rating="5"></span>
+                        <p class="product-price">Rp. 200.000</p>
+                    </div>
+                </div>
+                <div class="product-item" data-book-id="kids-10">
+                    <div class="image-card2">
+                        <div class="image-wrapper">
+                            <img src="./assets/images/turningred-1-photoshoot.svg" alt="">
+                        </div>  
+                        <div class="quick-add">Quick add to cart</div>
+                    </div>
+                    <div class="product-details">
+                        <h2 class="product-name">Turning Red</h2>
+                        <span class="product-rating" data-rating="3.5"></span>
+                        <p class="product-price">Rp. 200.000</p>
+                    </div>
+                </div>
+                <div class="product-item" data-book-id="kids-11">
+                    <div class="image-card2">
+                        <div class="image-wrapper">
+                            <img src="./assets/images/coco-1-photoshoot.svg" alt="">
+                        </div>   
+                        <div class="quick-add">Quick add to cart</div>
+                    </div>
+                    <div class="product-details">
+                        <h2 class="product-name">Coco</h2>
+                        <span class="product-rating" data-rating="4.5"></span>
+                        <p class="product-price">Rp. 200.000</p>
+                    </div>
+                </div>
+        </section>
+        
+        <section class="contact-section">
+            <div class="contact-content">
+                <div class="brand-details">
+                    <h1>Aksara Eda</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, sed ex? A minima omnis corporis assumenda deleniti repudiandae! Aliquid distinctio repudiandae voluptatem minus excepturi deserunt porro vero totam! Omnis, expedita.</p>
+                    <div class="social-media">
+                        <img src="./assets/icons/instagram.svg" alt="Instagram">
+                        <img src="./assets/icons/facebook.svg" alt="Facebook">
+                        <img src="./assets/icons/twitt.svg" alt="Twitter">
+                        <img src="./assets/icons/github.svg" alt="github">
+                    </div>
+                </div>
+                <div class="company-details">
+                    <h3>Company</h3>
+                    <span>About</span>
+                    <span>Features</span>
+                    <span>Works</span>
+                    <span>Careers</span>
+                </div>
+                <div class="company-details">
+                    <h3>Help</h3>
+                    <span>Customer Support</span>
+                    <span>Delivery Details</span>
+                    <span>Terms & Conditions</span>
+                    <span>Privacy Policy</span>
+                </div>
+                <div class="company-details">
+                    <h3>FAQ</h3>
+                    <span>Account</span>
+                    <span>Manage Deliveries</span>
+                    <span>Orders</span>
+                    <span>Payment</span>
+                </div>
+                <div class="company-details">
+                    <h3>Resources</h3>
+                    <span>Trial Books</span>
+                    <span>Free eBooks</span>
+                    <span>Books Reviews</span>
+                    <span>Communities</span>
+                </div>
+            </div>
+            <div class="separator"></div>
+            <div class="contact-footer">
+                <span>Aksara Eda @2025, All Right Reserved</span>
+            </div>
+        </section>
+    </section>
+</body>
+</html>
