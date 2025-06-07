@@ -187,6 +187,13 @@ color: var(--color-text-light);
 margin-bottom: 16px;
 }
 
+.cart__breadcrumb a{
+    text-decoration: none;
+    font-family: var(--font-family-text);
+    font-size: var(--dp-14);
+    color: var(--color-text-light);
+}
+
 .cart__title {
 font-family: var(--font-family-title);
 font-size: var(--dp-32);

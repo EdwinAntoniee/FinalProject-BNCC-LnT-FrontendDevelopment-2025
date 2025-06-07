@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Your Cart</title>
-    <link rel="stylesheet" href="css/shopping-cart.css"/>
+    <link rel="stylesheet" href="../assets/css/shopping-cart.css"/>
 </head>
 <body>
 
@@ -22,18 +22,18 @@
                 <div class="shop-nav">
                     <a href="../product-page/product-page.html" class="nav-text">Shops</a>
                     <svg class="dropdown" xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 12 7" fill="none">
-                        <path d="M11.5306 1.53063L6.5306 6.53063C6.46092 6.60055 6.37813 6.65602 6.28696 6.69388C6.1958 6.73173 6.09806 6.75122 5.99935 6.75122C5.90064 6.75122 5.8029 6.73173 5.71173 6.69388C5.62057 6.65602 5.53778 6.60055 5.4681 6.53063L0.468098 1.53063C0.327202 1.38973 0.248047 1.19864 0.248047 0.999378C0.248047 0.80012 0.327202 0.609024 0.468098 0.468128C0.608994 0.327231 0.800091 0.248077 0.999348 0.248077C1.19861 0.248077 1.3897 0.327231 1.5306 0.468128L5.99997 4.9375L10.4693 0.467503C10.6102 0.326607 10.8013 0.247452 11.0006 0.247452C11.1999 0.247452 11.391 0.326607 11.5318 0.467503C11.6727 0.608399 11.7519 0.799496 11.7519 0.998753C11.7519 1.19801 11.6727 1.38911 11.5318 1.53L11.5306 1.53063Z" fill="black"/>
+                            <path d="M11.5306 1.53063L6.5306 6.53063C6.46092 6.60055 6.37813 6.65602 6.28696 6.69388C6.1958 6.73173 6.09806 6.75122 5.99935 6.75122C5.90064 6.75122 5.8029 6.73173 5.71173 6.69388C5.62057 6.65602 5.53778 6.60055 5.4681 6.53063L0.468098 1.53063C0.327202 1.38973 0.248047 1.19864 0.248047 0.999378C0.248047 0.80012 0.327202 0.609024 0.468098 0.468128C0.608994 0.327231 0.800091 0.248077 0.999348 0.248077C1.19861 0.248077 1.3897 0.327231 1.5306 0.468128L5.99997 4.9375L10.4693 0.467503C10.6102 0.326607 10.8013 0.247452 11.0006 0.247452C11.1999 0.247452 11.391 0.326607 11.5318 0.467503C11.6727 0.608399 11.7519 0.799496 11.7519 0.998753C11.7519 1.19801 11.6727 1.38911 11.5318 1.53L11.5306 1.53063Z" fill="black"/>
                     </svg>
                 </div>
-                <p class="nav-text">On Sale</p>
-                <p class="nav-text">New Arrivals</p>
-                <p class="nav-text">Brands</p>
+                <a href="../contact-page/Contact.html" class="nav-text">Contact</a>
+                <a href="../help-page/Help.html" class="nav-text">Help</a>
+                <a href="#" class="nav-text">On sale</a>
             </div>
             
             <div class="sidebar-nav" id="sidebarNav">
                 <div class="sidebar-content">
                     <span class="close-sidebar" id="closeSidebar">&times;</span>
-                    <a href="/product-page/product-page.html" class="nav-text" id="nav-shop">Shops</a>
+                    <a href="../product-page/product-page.html" class="nav-text" id="nav-shop">Shops</a>
                     <a href="#" class="nav-text">On Sale</a>
                     <a href="#" class="nav-text">New Arrivals</a>
                     <a href="#" class="nav-text">Brands</a>
@@ -68,14 +68,17 @@
         <div class="separator"></div>
 
         <main class="cart">
-            <div class="cart__breadcrumb">Home > Cart</div>
+            <div class="cart__breadcrumb">
+                <a href="../home-page/Home.html">Home</a>
+                > 
+                <a href="../checkout-page/shopping-cart.html">Cart</a></div>
             <h1 class="cart__title">Your cart</h1>
 
             <div class="cart__content">
                 <!-- Cart Items -->
                 <div class="cart__items">
                     <div class="cart-item">
-                        <img src="asset\harrypotter-sorcerer-photoshoot.png" alt="Harry Potter Book" class="cart-item__image">
+                        <img src="../assets/images/harrypotter-sorcerer-photoshoot.png" alt="Harry Potter Book" class="cart-item__image">
                         <div class="cart-item__info">
                             <h2 class="cart-item__name">Harry Potter and the Sorcerer's Stone</h2>
                             <p class="cart-item__details">Format: Hardcover<br>Language: English</p>
@@ -92,7 +95,7 @@
                     </div>
                     
                     <div class="cart-item">
-                        <img src="asset\dune-first-photoshoot.svg" alt="Dune Book" class="cart-item__image">
+                        <img src="../assets/images/dune-first-photoshoot.svg" alt="Dune Book" class="cart-item__image">
                         <div class="cart-item__info">
                             <h2 class="cart-item__name">Dune</h2>
                             <p class="cart-item__details">Format: Paperback<br>Language: English</p>
@@ -109,7 +112,7 @@
                     </div>
 
                     <div class="cart-item">
-                        <img src="asset\robot-wild-photoshoot.svg" alt="The Wild Robot" class="cart-item__image">
+                        <img src="../assets/images/robot-wild-photoshoot.svg" alt="The Wild Robot" class="cart-item__image">
                         <div class="cart-item__info">
                             <h2 class="cart-item__name">The Wild Robot</h2>
                             <p class="cart-item__details">Format: Hardcover<br>Language: English</p>
@@ -227,6 +230,6 @@
         </div>
     </div>
 
-    <script src="js/shopping-cart.js"></script>
+    <script src="../scripts/shopping-cart.js"></script>
 </body>
 </html>

@@ -20,9 +20,9 @@ const books = {
     readingAge: "8 years and up",
     series: "Book 1 of 7 in the Harry Potter series",
     images: {
-      photoshoot: "./assets/images/harrypotter-sorcerer-photoshoot.png",
-      front: "./assets/images/harrypotter-sorcerer-frontview.jpg",
-      back: "./assets/images/harrypotter-sorcerer-backview.jpeg",
+      photoshoot: "../assets/images/harrypotter-sorcerer-photoshoot.png",
+      front: "../assets/images/harrypotter-sorcerer-frontview.jpg",
+      back: "../assets/images/harrypotter-sorcerer-backview.jpeg",
     },
     overview: [
       "Harry Potter has never played a sport while flying on a broomstick. He's never worn a cloak of invisibility, befriended a giant, or helped hatch a dragon. All Harry knows is a miserable life with the Dursleys, his horrible aunt and uncle, and their abominable son, Dudley. Harry's room is a tiny closet at the foot of the stairs, and he hasn't had a birthday party in eleven years.",
@@ -51,9 +51,9 @@ const books = {
     readingAge: "8 years and up",
     series: "Book 2 of 7 in the Harry Potter series",
     images: {
-      photoshoot: "./assets/images/harrypotter-chamber-photoshoot.png",
-      front: "./assets/images/harrypotter-chamber-frontview.jpg",
-      back: "./assets/images/harrypotter-chamber-backview.png",
+      photoshoot: "../assets/images/harrypotter-chamber-photoshoot.png",
+      front: "../assets/images/harrypotter-chamber-frontview.jpg",
+      back: "../assets/images/harrypotter-chamber-backview.png",
     },
     overview: [
       "Ever since Harry had come home for the summer, the Dursleys had been so mean and hideous that all Harry wanted was to get back to Hogwarts School of Witchcraft and Wizardry. But just as he's packing his bags, Harry receives a warning from a strange, impish creature who says that if Harry returns to Hogwarts, disaster will strike... And strike it does.",
@@ -80,9 +80,9 @@ const books = {
     readingAge: "9 years and up",
     series: "Book 3 of 7 in the Harry Potter series",
     images: {
-      photoshoot: "./assets/images/harrypotter-prisoner-photoshoot.png",
-      front: "./assets/images/harrypotter-prisoner-frontview.png",
-      back: "./assets/images/harrypotter-prisoner-backview.png",
+      photoshoot: "../assets/images/harrypotter-prisoner-photoshoot.png",
+      front: "../assets/images/harrypotter-prisoner-frontview.png",
+      back: "../assets/images/harrypotter-prisoner-backview.png",
     },
     overview: [
       "For twelve long years, the dread fortress of Azkaban held an infamous prisoner named Sirius Black. Convicted of killing thirteen people with a single curse, he was said to be the heir apparent to the Dark Lord, Voldemort. Now he has escaped, leaving only two clues as to where he might be headed",
@@ -109,9 +109,9 @@ const books = {
     readingAge: "10 years and up",
     series: "Book 4 of 7 in the Harry Potter series",
     images: {
-      photoshoot: "./assets/images/harrypotter-goblet-photoshoot.png",
-      front: "./assets/images/harrypotter-goblet-frontview.png",
-      back: "./assets/images/harrypotter-goblet-backview.jpg",
+      photoshoot: "../assets/images/harrypotter-goblet-photoshoot.png",
+      front: "../assets/images/harrypotter-goblet-frontview.png",
+      back: "../assets/images/harrypotter-goblet-backview.jpg",
     },
     overview: [
       "Harry Potter wants to get away from the pernicious Dursleys and go to the Quidditch World Cup with Hermione, Ron, and the Weasleys. He wants to dream about Cho Chang, his crush (and maybe do more than dream). He wants to find out about the mysterious event involving two other rival schools of magic",
@@ -139,9 +139,9 @@ const books = {
     readingAge: "11 years and up",
     series: "Book 5 of 7 in the Harry Potter series",
     images: {
-      photoshoot: "./assets/images/harrypotter-phoenix-photoshoot.png",
-      front: "./assets/images/harrypotter-phoenix-frontview.png",
-      back: "./assets/images/harrypotter-phoenix-backview.png",
+      photoshoot: "../assets/images/harrypotter-phoenix-photoshoot.png",
+      front: "../assets/images/harrypotter-phoenix-frontview.png",
+      back: "../assets/images/harrypotter-phoenix-backview.png",
     },
     overview: [
       "There is a door at the end of a silent corridor. And it's haunting Harry Potter's dreams. Why else would he be waking in the middle of the night, screaming in terror? It's not just the upcoming O.W.L. exams; a new teacher with a personality like poisoned honey; a disgruntled house-elf; or even the growing threat of He-Who-Must-Not-Be-Named.",
@@ -168,9 +168,9 @@ const books = {
     readingAge: "11 years and up",
     series: "Book 6 of 7 in the Harry Potter series",
     images: {
-      photoshoot: "./assets/images/harrypotter-prince-photoshoot.png",
-      front: "./assets/images/harrypotter-prince-frontview.png",
-      back: "./assets/images/harrypotter-prince-backview.png",
+      photoshoot: "../assets/images/harrypotter-prince-photoshoot.png",
+      front: "../assets/images/harrypotter-prince-frontview.png",
+      back: "../assets/images/harrypotter-prince-backview.png",
     },
     overview: [
       "The war against Voldemort is not going well; even Muggle governments are noticing. Hermione scans the pages of the Daily Prophet, reading out terrible news. Dumbledore is absent from Hogwarts for long stretches of time, and the Order of the Phoenix has already suffered losses. And yet... As in all wars, life goes on.",
@@ -197,9 +197,9 @@ const books = {
     readingAge: "12 years and up",
     series: "Book 7 of 7 in the Harry Potter series",
     images: {
-      photoshoot: "./assets/images/harrypotter-hallow-photoshoot.png",
-      front: "./assets/images/harrypotter-hallow-frontview.png",
-      back: "./assets/images/harrypotter-hallow-backview.png",
+      photoshoot: "../assets/images/harrypotter-hallow-photoshoot.png",
+      front: "../assets/images/harrypotter-hallow-frontview.png",
+      back: "../assets/images/harrypotter-hallow-backview.png",
     },
     overview: [
       "The Deathly Hallows are three legendary, powerful magical artifacts: the Elder Wand, the Resurrection Stone, and the Cloak of Invisibility. According to legend, the owner of all three becomes the Master of Death.",
@@ -227,9 +227,9 @@ const books = {
     readingAge: "15 years and up",
     series: "Book 1 of 5 in the Dune series",
     images: {
-      photoshoot: "./assets/images/dune-first-photoshoot.svg",
-      front: "./assets/images/dune-first-frontview.jpg",
-      back: "./assets/images/dune-first-backview.png",
+      photoshoot: "../assets/images/dune-first-photoshoot.svg",
+      front: "../assets/images/dune-first-frontview.jpg",
+      back: "../assets/images/dune-first-backview.png",
     },
     overview: [
       "After facing masses of rejection letters, Frank Herbert finally published Dune in 1965. More than thirty years later, his magnificent Dune chronicles have sold more copies than any other science fiction novels in history. This first book is set on the desert planet Arrakis, a world drawn as vividly and terrifyingly as any in literature.",
@@ -257,9 +257,9 @@ const books = {
     readingAge: "15 years and up",
     series: "Book 2 of 5 in the Dune series",
     images: {
-      photoshoot: "./assets/images/dune-messiah-photoshoot.svg",
-      front: "./assets/images/dune-messiah-frontview.jpg",
-      back: "./assets/images/dune-messiah-backview.png",
+      photoshoot: "../assets/images/dune-messiah-photoshoot.svg",
+      front: "../assets/images/dune-messiah-frontview.jpg",
+      back: "../assets/images/dune-messiah-backview.png",
     },
     overview: [
       "The best-selling science-fiction series of all time continues! This second installment explores new developments on the desert planet Arrakis, with its intricate social order and its strange threatening environment. Dune Messiah picks up the story of the man known as Maud'dib",
@@ -287,9 +287,9 @@ const books = {
     readingAge: "15 years and up",
     series: "Book 3 of 5 in the Dune series",
     images: {
-      photoshoot: "./assets/images/dune-children-photoshoot.svg",
-      front: "./assets/images/dune-children-frontview.jpg",
-      back: "./assets/images/dune-chidren-backview.png",
+      photoshoot: "../assets/images/dune-children-photoshoot.svg",
+      front: "../assets/images/dune-children-frontview.jpg",
+      back: "../assets/images/dune-chidren-backview.png",
     },
     overview: [
       "The Children of Dune are twin siblings Leto and Ghanima Atreides, whose father, the Emperor Paul Muad’Dib,'disappeared'in the desert wastelands of Arrakis nine years ago. Like their father, the twins possess supernormal abilities—making them valuable to their manipulative aunt Alia, who rules the Empire in the name of House Atreides.",
@@ -317,9 +317,9 @@ const books = {
     readingAge: "16 years and up",
     series: "Book 4 of 5 in the Dune series",
     images: {
-      photoshoot: "./assets/images/dune-god-photoshoot.svg",
-      front: "./assets/images/dune-god-frontview.jpg",
-      back: "./assets/images/dune-god-backview.jpg",
+      photoshoot: "../assets/images/dune-god-photoshoot.svg",
+      front: "../assets/images/dune-god-frontview.jpg",
+      back: "../assets/images/dune-god-backview.jpg",
     },
     overview: [
       "Millennia have passed on Arrakis, and the once-desert planet is green with life. Leto Atreides, the son of the world’s savior, the Emperor Paul Muad’Dib, is still alive but far from human. To preserve humanity’s future, he sacrificed his own by merging with a sandworm, granting him near immortality as God Emperor of Dune for the past thirty-five hundred years.",
@@ -346,9 +346,9 @@ const books = {
     readingAge: "8 - 12 years",
     series: "The Wild Robot #1",
     images: {
-        "photoshoot": "./assets/images/robot-wild-photoshoot.svg",
-        "front": "./assets/images/robot-wild-frontview.jpg",
-        "back": "./assets/images/robot-wild-backview.jpg"
+        "photoshoot": "../assets/images/robot-wild-photoshoot.svg",
+        "front": "../assets/images/robot-wild-frontview.jpg",
+        "back": "../assets/images/robot-wild-backview.jpg"
     },
     overview: [
         "Roz the robot finds herself stranded on a remote, untamed island after a shipwreck. She must learn to survive in a world where she doesn't belong, facing weather, wild animals, and unfamiliar instincts.",
@@ -375,9 +375,9 @@ const books = {
     readingAge: "8 - 12 years",
     series: "Book 3 of The Wild Robot series",
     images: {
-      photoshoot: "./assets/images/robot-protect-photoshoot.svg",
-      front: "./assets/images/robot-protect-frontview.jpg",
-      back: "./assets/images/robot-protect-backview.jpg"
+      photoshoot: "../assets/images/robot-protect-photoshoot.svg",
+      front: "../assets/images/robot-protect-frontview.jpg",
+      back: "../assets/images/robot-protect-backview.jpg"
     },
     overview: [
       "After settling into life on the island, Roz is faced with new dangers threatening her animal family. When mysterious intruders arrive and begin harming the wildlife, Roz steps up to defend those she loves.She must navigate difficult decisions, protect the young, and stand against injustice.",
@@ -404,9 +404,9 @@ const books = {
     readingAge: "8 - 12 years",
     series: "Book 2 of The Wild Robot series",
     images: {
-      photoshoot: "./assets/images/robot-escape-photoshoot.svg",
-      front: "./assets/images/robot-escape-frontview.jpg",
-      back: "./assets/images/robot-escape-backview.jpg"
+      photoshoot: "../assets/images/robot-escape-photoshoot.svg",
+      front: "../assets/images/robot-escape-frontview.jpg",
+      back: "../assets/images/robot-escape-backview.jpg"
     },
     overview: [
       "Roz is taken from her home and forced to work on a human farm, separated from her animal friends. But she never stops dreaming of returning to her island. While she works with new humans and animals, Roz searches for a way to escape.",
@@ -433,9 +433,9 @@ const books = {
     readingAge: "7 - 10 years",
     series: "Book 1 of The Bad Guys series",
     images: {
-      photoshoot: "./assets/images/badguy-1-photoshoot.svg",
-      front: "./assets/images/badguy-1-frontview.jpeg",
-      back: "./assets/images/badguy-1-backview.jpeg"
+      photoshoot: "../assets/images/badguy-1-photoshoot.svg",
+      front: "../assets/images/badguy-1-frontview.jpeg",
+      back: "../assets/images/badguy-1-backview.jpeg"
     },
     overview: [
       "Mr. Wolf, Mr. Snake, Mr. Shark, and Mr. Piranha are always seen as the bad guys. But they want to change their image and become heroes instead. So, they form a team and plan their first good deed: rescuing dogs from the pound.",
@@ -462,9 +462,9 @@ const books = {
     readingAge: "8 - 12 years",
     series: "Book 1 of How To Train Your Dragon series",
     images: {
-      photoshoot: "./assets/images/httyd-1-photoshoot.svg",
-      front: "./assets/images/httyd-1-frontview.jpeg",
-      back: "./assets/images/httyd-1-backview.jpg"
+      photoshoot: "../assets/images/httyd-1-photoshoot.svg",
+      front: "../assets/images/httyd-1-frontview.jpeg",
+      back: "../assets/images/httyd-1-backview.jpg"
     },
     overview: [
       "Hiccup is a young Viking who lives in a village where dragons are feared and hunted. But everything changes when he captures and befriends a dragon he names Toothless. Together, they challenge ancient traditions and uncover the truth about dragons.",
@@ -491,9 +491,9 @@ const books = {
     readingAge: "5 - 9 years",
     series: "Standalone",
     images: {
-      photoshoot: "./assets/images/lorax-1-photoshoot.svg",
-      front: "./assets/images/lorax-1-frontview.jpeg",
-      back: "./assets/images/lorax-1-backview.jpg"
+      photoshoot: "../assets/images/lorax-1-photoshoot.svg",
+      front: "../assets/images/lorax-1-frontview.jpeg",
+      back: "../assets/images/lorax-1-backview.jpg"
     },
     overview: [
       "A young boy seeks the truth about what happened to the trees in his town, leading him to hear the tale of the Lorax. The Lorax is a creature who spoke for the trees, warning against greed and destruction. Through a colorful and powerful story, the boy learns about caring for nature and making better choices.",
@@ -520,9 +520,9 @@ const books = {
     readingAge: "7 - 10 years",
     series: "Book 8 of Paddington Bear series",
     images: {
-      photoshoot: "./assets/images/paddington-1-photoshoot.svg",
-      front: "./assets/images/paddington-1-frontview.jpg",
-      back: "./assets/images/paddington-1-backview.jpg"
+      photoshoot: "../assets/images/paddington-1-photoshoot.svg",
+      front: "../assets/images/paddington-1-frontview.jpg",
+      back: "../assets/images/paddington-1-backview.jpg"
     },
     overview: [
       "Paddington Bear is back with another set of heartwarming adventures in the charming town he now calls home. Though he always means well, Paddington often finds himself in the middle of unexpected trouble, from joining a town festival to helping out in the local theater. With his trademark hat, marmalade sandwiches, and kind heart, Paddington brings joy to everyone he meets—even if they don’t always see it at first.",
@@ -549,9 +549,9 @@ const books = {
     readingAge: "8 - 12 years",
     series: "Standalone",
     images: {
-      photoshoot: "./assets/images/bfg-1-photoshoot.svg",
-      front: "./assets/images/bfg-1-frontview.jpg",
-      back: "./assets/images/bfg-1-backview.jpg"
+      photoshoot: "../assets/images/bfg-1-photoshoot.svg",
+      front: "../assets/images/bfg-1-frontview.jpg",
+      back: "../assets/images/bfg-1-backview.jpg"
     },
     overview: [
       "Sophie is snatched from her orphanage by a giant—but not just any giant. He's the BFG, the Big Friendly Giant, who collects dreams and refuses to eat children. Together, they hatch a plan to stop the evil giants who do harm.",
@@ -578,9 +578,9 @@ const books = {
     readingAge: "6 - 10 years",
     series: "Standalone",
     images: {
-      photoshoot: "./assets/images/elemental-1-photoshoot.svg",
-      front: "./assets/images/elemental-1-frontview.jpg",
-      back: "./assets/images/elemental-1-backview.jpg"
+      photoshoot: "../assets/images/elemental-1-photoshoot.svg",
+      front: "../assets/images/elemental-1-frontview.jpg",
+      back: "../assets/images/elemental-1-backview.jpg"
     },
     overview: [
       "In Element City, where fire, water, earth, and air residents live side by side—but rarely mix—Ember, a fiery and passionate girl, meets Wade, a calm and emotional water boy. Their unlikely friendship turns into something deeper as they challenge the social norms that keep elements apart. Together, they journey through the city and face their fears, discovering that they have more in common than they thought.",
@@ -607,9 +607,9 @@ const books = {
     readingAge: "7 - 11 years",
     series: "Standalone",
     images: {
-      photoshoot: "./assets/images/turningred-1-photoshoot.svg",
-      front: "./assets/images/turningred-1-frontview.jpg",
-      back: "./assets/images/turningred-1-backview.jpg"
+      photoshoot: "../assets/images/turningred-1-photoshoot.svg",
+      front: "../assets/images/turningred-1-frontview.jpg",
+      back: "../assets/images/turningred-1-backview.jpg"
     },
     overview: [
       "Mei Lee is a 13-year-old girl torn between being her mother's obedient daughter and the chaos of adolescence. Things get even more complicated when she starts turning into a giant red panda whenever she gets emotional. As Mei navigates school, friends, and her changing identity, she learns to embrace her true self.",
@@ -636,9 +636,9 @@ const books = {
     readingAge: "7 - 11 years",
     series: "Standalone",
     images: {
-      photoshoot: "./assets/images/coco-1-photoshoot.svg",
-      front: "./assets/images/coco-1-frontview.jpg",
-      back: "./assets/images/coco-1-backview.jpg"
+      photoshoot: "../assets/images/coco-1-photoshoot.svg",
+      front: "../assets/images/coco-1-frontview.jpg",
+      back: "../assets/images/coco-1-backview.jpg"
     },
     overview: [
       "Miguel has always dreamed of becoming a famous musician like his idol Ernesto de la Cruz, but his family has banned music for generations. On Día de los Muertos, Miguel’s determination leads him to steal a guitar that mysteriously transports him to the Land of the Dead. There, he meets his ancestors and a funny trickster named Héctor, who helps him uncover a hidden family history.",

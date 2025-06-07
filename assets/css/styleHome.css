@@ -320,6 +320,22 @@ a {
     color: #FBF3E6;
 }
 
+.picture img {
+    width: 400px;
+}
+
+.gambar1 img{
+    width: 100px;
+}
+
+.gambar2 img{
+    width: 100px;
+}
+
+.gambar3 img{
+    width: 100px;
+}
+
 /*Tablet*/
 @media (max-width: 1024px) {
     .nav {
